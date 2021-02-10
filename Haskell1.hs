@@ -94,10 +94,10 @@ data Bool = True | False
 data Shape = Circle Float Float Float | Rectangle Float Float Float Float deriving (Show)
 
 -- custom types 3
---Car {company = "Ford", model = "Mustang", year = 1967} 
+-- Car {company = "Ford", model = "Mustang", year = 1967} 
 data Car = Car {company :: String, model :: String, year :: Int} deriving (Show)
 
--- cussttom types 4
+-- custom types 4
 data Vector v = Vector v v v deriving (Show)
 
 -- custom types in functions
